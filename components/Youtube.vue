@@ -3,6 +3,7 @@
     class="youtube"
   >
     <iframe
+      class="video"
       :src="youtubeID"
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -30,5 +31,8 @@ export default {
 .youtube{
     text-align: center;
     padding: 15px;
+    .video{
+      border-radius: 5px;
+    }
 }
 </style>
